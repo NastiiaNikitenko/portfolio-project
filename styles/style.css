@@ -78,11 +78,12 @@ p {
   }
   .intro {
     padding: 80px 20px;
+    text-align: center;
   }
   .intro h1 {
     font-size: 44px;
-    text-align: center;
   }
+
   .intro p {
     font-size: 28px;
   }
