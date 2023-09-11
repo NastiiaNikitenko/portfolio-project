@@ -68,14 +68,28 @@ p {
   margin-top: 60px;
   margin-bottom: 20px;
 }
+
+.about-section {
+  padding: 120px 60px;
+}
+.about-section h1 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.about-section-content {
+  margin: 50px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
     text-align: center;
   }
-  .project-description h2 {
-    font-size: 21px;
-  }
+
   .intro {
     padding: 80px 20px;
     text-align: center;
@@ -86,5 +100,9 @@ p {
 
   .intro p {
     font-size: 28px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
