@@ -69,19 +69,28 @@ p {
   margin-bottom: 20px;
 }
 
-.about-section {
+.content-container {
   padding: 120px 60px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   font-family: var(--heading-font-family);
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
-.about-section-content {
+.content {
   margin: 50px;
+}
+.content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0 0;
+}
+.content p {
+  font-size: 14px;
+  font-weight: small;
 }
 
 @media (max-width: 900px) {
@@ -101,7 +110,7 @@ p {
   .intro p {
     font-size: 28px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
