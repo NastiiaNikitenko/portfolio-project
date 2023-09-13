@@ -187,4 +187,8 @@ footer .social-links a:hover {
   nav a {
     font-size: 14px;
   }
+  .logo {
+    padding: 0;
+    max-width: 76px;
+  }
 }
