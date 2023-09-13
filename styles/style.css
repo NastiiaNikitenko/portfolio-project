@@ -26,7 +26,7 @@ p {
 .intro {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 30px;
+  padding: 80px 30px;
 }
 .intro h1 {
   color: black;
@@ -77,7 +77,7 @@ p {
 }
 
 .content-container {
-  padding: 120px 60px;
+  padding: 20px 20px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -171,7 +171,6 @@ footer .social-links a:hover {
   }
 
   .intro {
-    padding: 80px 20px;
     text-align: center;
   }
   .intro h1 {
