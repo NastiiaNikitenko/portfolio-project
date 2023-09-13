@@ -6,8 +6,15 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-h2 {
+h1,
+h2,
+h4 {
   font-family: var(--heading-font-family);
+}
+h4 {
+  font-size: 48px;
+}
+h2 {
   font-size: 62px;
   font-weight: bold;
 }
@@ -23,7 +30,7 @@ p {
 }
 .intro h1 {
   color: black;
-  font-family: var(--heading-font-family);
+
   font-size: 96px;
 }
 .intro h2 {
@@ -119,6 +126,44 @@ nav li.active a {
   max-width: 100px;
 }
 
+footer {
+  margin: 40px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  margin: 10px 50px;
+}
+footer p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 15px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -142,6 +187,5 @@ nav li.active a {
   }
   nav a {
     font-size: 14px;
-    justify-content: right;
   }
 }
